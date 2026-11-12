@@ -1,0 +1,460 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0B1423">
+  <meta name="description" content="Portfolio of Rida Fatima, Computer Science student.">
+
+  <title>Rida Fatima | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <header class="navbar">
+    <a href="#home" class="logo">RF<span>✦</span></a>
+
+    <nav aria-label="Main navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#contact" class="nav-btn">Let's Connect ↗</a>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+
+      <div class="hero-content">
+        <div class="intro-label">
+          <span>Hello, I'm</span>
+          <span class="intro-line"></span>
+        </div>
+
+        <h1>Rida Fatima</h1>
+        <h2>Computer Science Student <span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          A curious Computer Science student passionate about
+          web development, creative problem-solving, and
+          building meaningful digital experiences.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary-btn">
+            Explore My Work <span>→</span>
+          </a>
+
+          <a href="#contact" class="btn outline-btn">
+            Contact Me <span>↗</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <span><span class="meta-dot"></span> BS Computer Science</span>
+          <span>5th Semester</span>
+        </div>
+      </div>
+
+      <!-- ANIMATED ASTRONAUT -->
+      <div class="hero-visual astronaut-visual"
+           aria-label="Astronaut presenting Rida Fatima's profile">
+
+        <div class="space-glow"></div>
+        <div class="space-planet"></div>
+
+        <span class="space-star star-a">✦</span>
+        <span class="space-star star-b">✧</span>
+        <span class="space-star star-c">✦</span>
+
+        <div class="astronaut-flight">
+          <div class="astronaut-float">
+
+            <svg class="astronaut-svg"
+                 viewBox="0 0 300 330"
+                 role="img"
+                 aria-label="Illustrated floating astronaut"
+                 xmlns="http://www.w3.org/2000/svg">
+
+              <defs>
+                <linearGradient id="suitGradient" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#F4F0FF"/>
+                  <stop offset="55%" stop-color="#B7AED3"/>
+                  <stop offset="100%" stop-color="#70668F"/>
+                </linearGradient>
+
+                <linearGradient id="visorGradient" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#37436E"/>
+                  <stop offset="65%" stop-color="#11182E"/>
+                  <stop offset="100%" stop-color="#080C19"/>
+                </linearGradient>
+
+                <linearGradient id="goldGradient" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%" stop-color="#F4DBA6"/>
+                  <stop offset="100%" stop-color="#A87E47"/>
+                </linearGradient>
+              </defs>
+
+              <!-- JETPACK -->
+              <rect x="64" y="126" width="62" height="113"
+                    rx="22" fill="#746B9B"
+                    stroke="#D6CBE8" stroke-width="5"/>
+
+              <rect x="74" y="143" width="28" height="67"
+                    rx="12" fill="#A69BC6"/>
+
+              <!-- LEGS -->
+              <path d="M127 229 L107 278 Q100 298 119 303
+                       L146 303 L163 246Z"
+                    fill="url(#suitGradient)"
+                    stroke="#746B96" stroke-width="5"/>
+
+              <path d="M175 231 L192 278 Q202 298 184 306
+                       L158 303 L150 250Z"
+                    fill="url(#suitGradient)"
+                    stroke="#746B96" stroke-width="5"/>
+
+              <path d="M106 282 L144 287 L143 310
+                       Q112 316 101 302Z"
+                    fill="#5E587F"/>
+
+              <path d="M159 286 L196 284 L200 303
+                       Q180 317 155 308Z"
+                    fill="#5E587F"/>
+
+              <!-- BODY -->
+              <path d="M111 142 Q150 122 190 145
+                       L207 221 Q152 258 100 221Z"
+                    fill="url(#suitGradient)"
+                    stroke="#786C9B" stroke-width="6"/>
+
+              <!-- LEFT ARM -->
+              <path d="M109 156 Q70 158 62 205
+                       Q58 225 78 229
+                       Q95 227 106 196 L126 179Z"
+                    fill="url(#suitGradient)"
+                    stroke="#746B96" stroke-width="5"/>
+
+              <ellipse cx="72" cy="225" rx="19" ry="16"
+                       fill="#D6CCE8"
+                       stroke="#75688E" stroke-width="4"/>
+
+              <!-- RIGHT ARM -->
+              <path d="M191 155 Q219 157 240 186
+                       L266 191 Q280 202 270 216
+                       Q259 226 243 215
+                       L208 202 L182 185Z"
+                    fill="url(#suitGradient)"
+                    stroke="#746B96" stroke-width="5"/>
+
+              <ellipse cx="265" cy="207" rx="18" ry="15"
+                       fill="#D6CCE8"
+                       stroke="#75688E" stroke-width="4"/>
+
+              <!-- CHEST DISPLAY -->
+              <rect x="130" y="177" width="49" height="37"
+                    rx="8" fill="#283451"
+                    stroke="#D4B57B" stroke-width="3"/>
+
+              <path d="M146 190 L139 195 L146 200
+                       M162 190 L169 195 L162 200"
+                    stroke="#C9B4F1"
+                    stroke-width="3" fill="none"
+                    stroke-linecap="round"/>
+
+              <!-- HELMET -->
+              <circle cx="151" cy="99" r="79"
+                      fill="url(#suitGradient)"
+                      stroke="#D7C5A2" stroke-width="7"/>
+
+              <circle cx="151" cy="99" r="63"
+                      fill="url(#visorGradient)"
+                      stroke="#8F78B6" stroke-width="5"/>
+
+              <path d="M111 68 Q147 40 190 65"
+                    stroke="#BBA5E9"
+                    stroke-width="8" opacity=".6"
+                    fill="none" stroke-linecap="round"/>
+
+              <!-- VISOR SYMBOL -->
+              <path d="M139 91 L126 101 L139 111
+                       M165 91 L178 101 L165 111
+                       M158 85 L146 117"
+                    stroke="#D6B9FF"
+                    stroke-width="5" fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"/>
+
+              <circle cx="83" cy="102" r="15"
+                      fill="#655A86"
+                      stroke="#C7B6E1" stroke-width="5"/>
+
+              <circle cx="219" cy="102" r="15"
+                      fill="#655A86"
+                      stroke="#C7B6E1" stroke-width="5"/>
+
+              <path d="M106 149 Q151 130 195 149"
+                    fill="none"
+                    stroke="url(#goldGradient)"
+                    stroke-width="4"/>
+
+              <!-- JET FLAMES -->
+              <g class="jet-flames">
+                <path d="M78 238 Q61 272 82 290
+                         Q99 266 95 238Z"
+                      fill="#9862E0" opacity=".7"/>
+
+                <path d="M83 242 Q73 265 85 278
+                         Q95 261 91 242Z"
+                      fill="#E3BA86"/>
+              </g>
+            </svg>
+
+          </div>
+        </div>
+
+        <!-- HOLOGRAPHIC PROFILE -->
+        <div class="hologram-card">
+          <div class="hologram-header">
+            <span class="hologram-status"></span>
+            PROFILE UNLOCKED
+          </div>
+
+          <span class="hologram-icon">&lt;/&gt;</span>
+
+          <h3>Rida Fatima</h3>
+          <p>Computer Science Student</p>
+
+          <div class="hologram-divider"></div>
+
+          <span class="hologram-semester">
+            BSCS · SEMESTER 05
+          </span>
+        </div>
+
+        <span class="space-hint">
+          EXPLORING THE UNIVERSE OF CODE
+        </span>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span class="mouse-icon"><span></span></span>
+        <span>SCROLL TO EXPLORE</span>
+      </a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="content-section about-section" id="about">
+      <div class="section-heading">
+        <span class="section-label">01 / INTRODUCTION</span>
+        <h2>A Little About Me<span class="heading-period">.</span></h2>
+      </div>
+
+      <div class="about-layout">
+        <p class="about-main">
+          I'm a Computer Science student who enjoys
+          turning ideas into real-world digital solutions.
+        </p>
+
+        <div class="about-details">
+          <p>
+            Currently in my 5th semester, I'm exploring
+            programming, website development, and software
+            fundamentals. I enjoy creating clean, user-friendly
+            projects while continuously improving my skills.
+          </p>
+
+          <div class="info-grid">
+            <div>
+              <span>EDUCATION</span>
+              <strong>BS Computer Science</strong>
+            </div>
+            <div>
+              <span>SEMESTER</span>
+              <strong>5th Semester</strong>
+            </div>
+            <div>
+              <span>LANGUAGES</span>
+              <strong>English & Urdu</strong>
+            </div>
+            <div>
+              <span>INTEREST</span>
+              <strong>Web & Software Development</strong>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="content-section skills-section" id="skills">
+      <div class="section-heading">
+        <span class="section-label">02 / MY TOOLKIT</span>
+        <h2>Skills & Technologies<span class="heading-period">.</span></h2>
+        <p>Building a strong foundation, one project at a time.</p>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <span class="skill-number">01</span>
+          <h3>Frontend Development</h3>
+          <p>HTML, CSS, JavaScript, Responsive Design</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">02</span>
+          <h3>Programming</h3>
+          <p>C++, Python, Problem Solving</p>
+        </article>
+
+        <article class="skill-card">
+          <span class="skill-number">03</span>
+          <h3>Tools & Fundamentals</h3>
+          <p>Git, GitHub, VS Code, Data Structures</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="content-section projects-section" id="projects">
+      <div class="section-heading">
+        <span class="section-label">03 / SELECTED WORK</span>
+        <h2>Featured Projects<span class="heading-period">.</span></h2>
+        <p>A selection of my web development work.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-preview cafe-preview">
+            <div class="preview-browser">
+              <div class="browser-top">
+                <i></i><i></i><i></i>
+              </div>
+              <span class="preview-mini-label">WEB DEVELOPMENT</span>
+              <strong>Campus Café</strong>
+              <span class="preview-line"></span>
+              <span class="preview-button">Explore Menu →</span>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <span class="project-index">PROJECT 01</span>
+            <h3>Campus Café Website</h3>
+            <p>
+              A responsive café website featuring a menu,
+              ordering interface, and interactive functionality.
+            </p>
+            <span class="project-tech">HTML · CSS · JavaScript</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-preview perfume-preview">
+            <div class="preview-browser">
+              <div class="browser-top">
+                <i></i><i></i><i></i>
+              </div>
+              <span class="preview-mini-label">PRODUCT WEBSITE</span>
+              <strong>NOIRE</strong>
+              <span class="preview-line"></span>
+              <span class="preview-button">Discover Collection →</span>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <span class="project-index">PROJECT 02</span>
+            <h3>NOIRE Product Website</h3>
+            <p>
+              A product showcase with dedicated product details
+              and an order page.
+            </p>
+            <span class="project-tech">HTML · CSS · JavaScript</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="content-section contact-section" id="contact">
+      <div class="section-heading">
+        <span class="section-label">04 / GET IN TOUCH</span>
+        <h2>Let's Connect<span class="heading-period">.</span></h2>
+        <p>Have a project, question, or opportunity? I'd love to hear from you.</p>
+      </div>
+
+      <div class="contact-layout">
+        <div class="contact-intro">
+          <span class="contact-kicker">START A CONVERSATION</span>
+
+          <a class="email-link" href="mailto:rida44369@gmail.com">
+            rida44369@gmail.com
+          </a>
+
+          <p>
+            Open to learning, collaboration, and new opportunities.
+          </p>
+        </div>
+
+        <form id="contactForm" class="contact-form">
+          <div class="form-row">
+            <label>
+              Your Name
+              <input type="text" name="name"
+                     placeholder="Enter your name" required>
+            </label>
+
+            <label>
+              Your Email
+              <input type="email" name="email"
+                     placeholder="Enter your email" required>
+            </label>
+          </div>
+
+          <label>
+            Subject
+            <input type="text" name="subject"
+                   placeholder="What is this about?" required>
+          </label>
+
+          <label>
+            Message
+            <textarea name="message" rows="5"
+                      placeholder="Write your message..."
+                      required></textarea>
+          </label>
+
+          <button type="submit" class="btn primary-btn">
+            Prepare Email <span>↗</span>
+          </button>
+
+          <p class="form-note">
+            Opens your email app with your message ready to send.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Rida Fatima</span>
+    <span>Designed with curiosity & creativity ✦</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+
+</body>
+</html>
